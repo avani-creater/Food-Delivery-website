@@ -1,0 +1,17 @@
+function RestaurantCard({ information }) {
+  const { name, rating, cuisines, deliveryTime, imageUrl } = information;
+
+  return (
+    <div className="w-56 h-72">
+      <img src={imageUrl} alt="img" className="w-full h-2/3 rounded-lg" />
+      <div className="w-full h-24">
+        <p className="font-bold text-lg text-slate-900 font-sans">{name}</p>
+        <p className="font-semibold text-base text-gray-500">{rating} ⭐</p>
+        <p className="font-semibold text-base text-gray-500">{cuisines}</p>
+        <p className="font-semibold text-base text-gray-500">{deliveryTime}</p>
+      </div>
+    </div>
+  );
+}
+
+export default RestaurantCard;
