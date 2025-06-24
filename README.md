@@ -1,10 +1,10 @@
-# 🍔 Food Delivery Web App
+#  Food Delivery Web App
 
 This is a full-stack food delivery application where users can search for restaurants, view menus, add food items to their cart, and sign up or log in to place an order. The project uses **React**, **Tailwind CSS**, **Express.js**, **MongoDB** and **Mongoose**.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React + Tailwind CSS (Vite)
 - **Backend**: Node.js + Express.js
@@ -13,7 +13,7 @@ This is a full-stack food delivery application where users can search for restau
 
 ---
 
-## 📦 How to Run This Project on Your Laptop
+##  How to Run This Project on Your Laptop
 
 This project has two parts:  
 1. **Frontend (React app)**  
